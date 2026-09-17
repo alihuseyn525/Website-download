@@ -1,0 +1,13 @@
+{
+  "name": "img2pdf-scraper",
+  "version": "1.0.0",
+  "description": "Opens a webpage, downloads every image on it, and compiles them into a PDF.",
+  "main": "scrape-to-pdf.js",
+  "scripts": {
+    "start": "node scrape-to-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "pdf-lib": "^1.17.1"
+  }
+}
